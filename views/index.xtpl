@@ -1,0 +1,11 @@
+{{extend ("./default")}}
+
+{{#block ("head")}}
+<link rel="stylesheet" href="/main.css">
+<script src="/main.js" charset="utf-8"></script>
+{{/block}}
+
+{{#block ("body")}}
+  <h1>这是个获取经纬度并展示天气的网页</h1>
+  <a class="pure-button" href="#">查看</a>
+{{/block}}

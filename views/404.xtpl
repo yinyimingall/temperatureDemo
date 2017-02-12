@@ -1,0 +1,5 @@
+{{extend ("./default")}}
+
+{{#block ("body")}}
+<h1>404 error! File not found.</h1>
+{{/block}}
